@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: ' ';
+    height: 40px;
+}
+
+section{
+    width:100%;
+    overflow-wrap: break-word;
+}
+
+#map{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+@media(min-width:768px) {
+    .news-input{
+        max-width:50%;
+    }
+}
